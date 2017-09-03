@@ -119,3 +119,17 @@ p {
     width: 80px;
     height: 66px;
 }
+
+.top-nav-gear {
+    background: url('../images/sprites.png');
+    background-position: -1176px -1655px;
+    width: 23px;
+    height: 22px; }
+}
+
+.question {
+     background: url('../images/sprites.png');
+     background-position: -1058px -1672px;
+     width: 27px;
+     height: 22px;
+}
