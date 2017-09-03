@@ -1,47 +1,70 @@
-.sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.sprite-github {
-    width: 30px;
-    height: 30px;
-    background-position: -5px -5px;
-}
-
-.sprite-gmail {
-    width: 30px;
-    height: 30px;
-    background-position: -45px -5px;
-}
-
-.sprite-linkedin {
-    width: 30px;
-    height: 30px;
-    background-position: -85px -5px;
-}
-
-.sprite-sprites {
-    width: 640px;
-    height: 480px;
-    background-position: -5px -45px;
-}
-
-.sprite-stackoverflow {
-    width: 30px;
-    height: 30px;
-    background-position: -125px -5px;
-}
-
-.sprite-tumblr {
-    width: 30px;
-    height: 30px;
-    background-position: -165px -5px;
-}
-
-.sprite-twitter {
-    width: 30px;
-    height: 30px;
-    background-position: -205px -5px;
-}
+.sprites, .nav-background, .gradient, .green-background, .pie-graph, 
+.analytics-photo, .sweepstakes, .footer-one, .friends-advert, .version-advert, 
+.watch-what-advert, .avatar-whitebox, .avatar-chart1, .footer-final, .log-on, 
+.social-media, .diagonal-bg, .analytics-green-png, .customers-green-png, .dashboard-green-png, 
+.messages-green-png, .page-creator-png, .promotions-green-png, .foursquare-blue-background, .green-avatar, 
+.task-blue-three, .task-gray-hover, .facebook-blue-background, .google-green-background, .task-blue-36, 
+.twitter-blue-background, .marker, .task-four, .task-one-hover, .task-three, 
+.task-two, .drop-down-arrow, .question-mark, .gear, .search, 
+.path, .did-you-know-left-chevron, .did-you-know-right-chevron, .nav-button, .nav-button2, 
+.recommendations-check, .tasks-gear, .recommend-article, .recommendations-article-shadow, .checked-checkbox-background, 
+.unchecked-checkbox, .recommendations-check-shadow, .ribbon1, .ribbon2, .recommendations-lightbulb, 
+.up-arrow-blue
+{ display: inline-block; background: url('png.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.sprites { background-position: -1px -0px; width: 1202px; height: 1259px; }
+.nav-background { background-position: -1px -1260px; width: 1200px; height: 111px; }
+.gradient { background-position: -1px -1372px; width: 970px; height: 250px; }
+.green-background { background-position: -1px -1623px; width: 960px; height: 75px; }
+.pie-graph { background-position: -1px -1699px; width: 600px; height: 338px; }
+.analytics-photo { background-position: -602px -1699px; width: 420px; height: 187px; }
+.sweepstakes { background-position: -602px -1887px; width: 402px; height: 51px; }
+.footer-one { background-position: -602px -1939px; width: 386px; height: 51px; }
+.friends-advert { background-position: -602px -1991px; width: 268px; height: 171px; }
+.version-advert { background-position: -871px -1991px; width: 263px; height: 160px; }
+.watch-what-advert { background-position: -1px -2038px; width: 263px; height: 150px; }
+.avatar-whitebox { background-position: -972px -1372px; width: 214px; height: 199px; }
+.avatar-chart1 { background-position: -972px -1572px; width: 192px; height: 82px; }
+.footer-final { background-position: -1023px -1699px; width: 120px; height: 51px; }
+.log-on { background-position: -1023px -1751px; width: 114px; height: 51px; }
+.social-media { background-position: -1023px -1803px; width: 106px; height: 51px; }
+.diagonal-bg { background-position: -1023px -1855px; width: 84px; height: 77px; }
+.analytics-green-png { background-position: -1108px -1855px; width: 80px; height: 66px; }
+.customers-green-png { background-position: -1108px -1922px; width: 80px; height: 66px; }
+.dashboard-green-png { background-position: -265px -2038px; width: 80px; height: 66px; }
+.messages-green-png { background-position: -346px -2038px; width: 80px; height: 66px; }
+.page-creator-png { background-position: -427px -2038px; width: 80px; height: 66px; }
+.promotions-green-png { background-position: -508px -2038px; width: 80px; height: 66px; }
+.foursquare-blue-background { background-position: -962px -1655px; width: 79px; height: 16px; }
+.green-avatar { background-position: -265px -2105px; width: 78px; height: 82px; }
+.task-blue-three { background-position: -1130px -1803px; width: 72px; height: 44px; }
+.task-gray-hover { background-position: -1005px -1933px; width: 72px; height: 44px; }
+.facebook-blue-background { background-position: -1042px -1655px; width: 70px; height: 16px; }
+.google-green-background { background-position: -1113px -1655px; width: 62px; height: 16px; }
+.task-blue-36 { background-position: -1138px -1751px; width: 60px; height: 30px; }
+.twitter-blue-background { background-position: -962px -1672px; width: 54px; height: 16px; }
+.marker { background-position: -1017px -1672px; width: 40px; height: 10px; }
+.task-four { background-position: -1165px -1572px; width: 36px; height: 30px; }
+.task-one-hover { background-position: -1165px -1603px; width: 36px; height: 30px; }
+.task-three { background-position: -1144px -1699px; width: 36px; height: 30px; }
+.task-two { background-position: -1135px -1991px; width: 36px; height: 30px; }
+.drop-down-arrow { background-position: -1135px -2022px; width: 31px; height: 30px; }
+.question-mark { background-position: -1058px -1672px; width: 27px; height: 22px; }
+.gear { background-position: -1176px -1655px; width: 23px; height: 22px; }
+.search { background-position: -1086px -1672px; width: 23px; height: 22px; }
+.path { background-position: -1110px -1672px; width: 22px; height: 21px; }
+.did-you-know-left-chevron { background-position: -1078px -1933px; width: 22px; height: 50px; }
+.did-you-know-right-chevron { background-position: -1172px -1991px; width: 22px; height: 50px; }
+.nav-button { background-position: -1133px -1672px; width: 22px; height: 22px; }
+.nav-button2 { background-position: -1167px -2042px; width: 22px; height: 22px; }
+.recommendations-check { background-position: -1165px -1634px; width: 22px; height: 20px; }
+.tasks-gear { background-position: -1156px -1678px; width: 20px; height: 20px; }
+.recommend-article { background-position: -1181px -1699px; width: 19px; height: 23px; }
+.recommendations-article-shadow { background-position: -1177px -1678px; width: 19px; height: 12px; }
+.checked-checkbox-background { background-position: -1181px -1723px; width: 18px; height: 18px; }
+.unchecked-checkbox { background-position: -1144px -1730px; width: 18px; height: 18px; }
+.recommendations-check-shadow { background-position: -1187px -1372px; width: 15px; height: 12px; }
+.ribbon1 { background-position: -1187px -1385px; width: 15px; height: 40px; }
+.ribbon2 { background-position: -1187px -1426px; width: 15px; height: 40px; }
+.recommendations-lightbulb { background-position: -1187px -1467px; width: 14px; height: 23px; }
+.up-arrow-blue { background-position: -1187px -1491px; width: 14px; height: 9px; }
