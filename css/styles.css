@@ -1,3 +1,4 @@
+/*Code for responsive image (".responsive-image" found at w3schools: https://www.w3schools.com/css/css_rwd_images.asp*/
 h2 {
      color: white;
      font-size: 40px;
@@ -28,6 +29,9 @@ p {
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+}
+.right {
+    float: right;
 }
 
 #diagonal {
@@ -175,4 +179,101 @@ p {
     background-position: -1167px -2042px;
     width: 22px;
     height: 22px;
+}
+
+.tasks-text {
+    font-size: 25px;
+    margin: 25px;
+}
+
+.task-one-style {
+    background: url('../images/sprites.png');
+    background-position: -1165px -1603px;
+    width: 36px;
+    height: 30px; 
+}
+
+.task-two-style {
+    background: url('../images/sprites.png');
+    background-position: -1135px -1991px; width: 36px; height: 30px; 
+}
+
+.task-three-style {
+    background: url('../images/sprites.png');
+    background-position: -1144px -1699px;
+    width: 36px;
+    height: 30px; 
+}
+
+.task-four-style {
+    background: url('../images/sprites.png');
+    background-position: -1165px -1572px;
+    width: 36px;
+    height: 30px;
+}
+
+.task-blue36-style {
+    background: url('../images/sprites.png');
+    background-position: -1138px -1751px;
+    width: 60px;
+    height: 30px; 
+}
+.task-gray-hover-style {
+    background: url('../images/sprites.png');
+    background-position: -1005px -1933px;
+    width: 72px;
+    height: 44px; 
+}
+.task-blue3-style {
+    background: url('../images/sprites.png');
+    background-position: -1130px -1803px;
+    width: 72px;
+    height: 44px;
+    
+}
+.analytics-photo-style {
+    background: url('../images/sprites.png');
+    background-position: -602px -1699px;
+    width: 420px;
+    height: 187px; 
+}
+.socialmedia-text {
+    color: black;
+    font-size: 15px;
+}
+.inline {
+   display: inline;
+}
+.testred {
+    background-color: red;
+}
+.photo {
+    width: 500px;
+    height: 350px;
+}
+
+.pie-graph-style {
+    background: url('../images/sprites.png');
+    background-position: -1px -1699px;
+    width: 600px;
+    height: 338px;
+}
+
+.tinyfont {
+    font-size: 15px;
+    color: #777777;
+    margin: 6px;
+}
+
+.dropdown-form {
+     padding: 5px;
+     width: 100%;
+     font-size: 18px;
+}
+
+.drop-down-arrow-style {
+     background: url('../images/sprites.png');
+     background-position: -1135px -2022px;
+     width: 31px;
+     height: 30px;
 }
