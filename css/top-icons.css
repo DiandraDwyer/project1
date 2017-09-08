@@ -1,0 +1,133 @@
+.sprite {
+    background-image: url('../images/icons-sprite.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-blue-analytics {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -5px -5px;
+}
+
+.sprite-blue-create-page {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -96px -5px;
+}
+
+.sprite-blue-customers {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -187px -5px;
+}
+
+.sprite-blue-dashboard {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -5px -102px;
+}
+
+.sprite-blue-messages {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -96px -102px;
+}
+
+.sprite-blue-promotions {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -187px -102px;
+}
+
+.sprite-github {
+    background-image: url('../images/icons-sprite.png');
+    width: 30px;
+    height: 30px;
+    background-position: -278px -5px;
+}
+
+.sprite-gmail {
+    background-image: url('../images/icons-sprite.png');
+    width: 30px;
+    height: 30px;
+    background-position: -278px -45px;
+}
+
+.sprite-green-analytics {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -5px -199px;
+}
+
+.sprite-green-create-page {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -96px -199px;
+}
+
+.sprite-green-customers {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -187px -199px;
+}
+
+.sprite-green-dashboard {
+    background-image: url('../images/icons-sprite.png');
+    background-size: 60px 20px;
+    width: 81px;
+    height: 87px;
+    background-position: -318px -5px;
+}
+
+.sprite-green-messages {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -278px -102px;
+}
+
+.sprite-green-promotions {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -278px -199px;
+}
+
+.sprite-linkedin {
+    background-image: url('../images/icons-sprite.png');
+  
+    width: 30px;
+    height: 30px;
+    background-position: -369px -102px;
+}
+
+.sprite-stackoverflow {
+    background-image: url('../images/icons-sprite.png');
+    width: 30px;
+    height: 30px;
+    background-position: -369px -142px;
+}
+
+.sprite-tumblr {
+    background-image: url('../images/icons-sprite.png');
+    width: 30px;
+    height: 30px;
+    background-position: -369px -182px;
+}
+
+.sprite-twitter {
+    background-image: url('../images/icons-sprite.png');
+    width: 30px;
+    height: 30px;
+    background-position: -369px -222px;
+}

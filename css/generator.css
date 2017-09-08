@@ -10,7 +10,7 @@
 .recommendations-check, .tasks-gear, .recommend-article, .recommendations-article-shadow, .checked-checkbox-background, 
 .unchecked-checkbox, .recommendations-check-shadow, .ribbon1, .ribbon2, .recommendations-lightbulb, 
 .up-arrow-blue
-{ display: inline-block; background: url('png.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+{ display: inline-block; background: url('../images/sprites.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
  
 .sprites { background-position: -1px -0px; width: 1202px; height: 1259px; }
 .nav-background { background-position: -1px -1260px; width: 1200px; height: 111px; }

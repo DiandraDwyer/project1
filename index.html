@@ -5,10 +5,12 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
          <link rel="stylesheet" type="text/css" href="css/generator.css">
+         <link rel="stylesheet" type="text/css" href="css/top-icons.css">
           <link rel="stylesheet" type="text/css" href="css/styles.css"> 
   </head>
 
@@ -22,8 +24,8 @@
                 </div>
                 <div class = "top-nav col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class = "top-nav-font left"> <p> MINI of Raleigh</p></div>
-                    <div class = "question question-mark"></div>
-                    <div class = "top-nav-gear gear"></div>
+                    <a href="#"><div class = "question question-mark"></div> </a>
+                   <a href="#"> <div class = "top-nav-gear gear"></div> </a>
                 </div>
             </div>
         </div>
@@ -31,30 +33,57 @@
         <div class = "container-fluid background">
             <div class = "row">
                 <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-12">
-                 <div class="dashboard-icon dashboard-green-png"></div>
-                   <div class="customers customers-green-png"></div> 
-                   <div class="messages messages-green-png"></div> 
-                  <div class="promotions promotions-green-png"></div> 
-                  <div class="page page-creator-png"></div> 
-                  <div class="analytics analytics-green-png"></div> 
-                </div>
-               
-                <div class = "col-xs-8 col-sm-8 col-md-8">
-                    
-                </div>
+                 <div class="dashboard-icon sprite-blue-dashboard"></div>
+                   <div class="customers sprite-blue-customers"></div> 
+                   <div class="messages sprite-blue-messages"></div> 
+                  <div class="promotions sprite-blue-promotions"></div> 
+                  <div class="page sprite-blue-create-page"></div> 
+                  <div class="analytics sprite-blue-analytics"></div> 
+                </div> 
+            </div>
+            <div class="marker"></div>
             </div>
         </div>
 <!--MAIN CONTENT-->
-        <div class = "container" id = "gradient-background">
+        <div class = "container">
 <!--Row 1--> 
            <div class = "row" id = "green-dashboard">
                 <div class = "col-xs-9 col-sm-9 col-md-9 col-lg-9" >
                     <h2> Dashboard </h2>
                         <div class="search-icon search"></div>
-                  
+
+<!--<!--Search box code from TEXTFIXER: https://www.textfixer.com/tutorials/html-search-box.php -->
+<!--<!-- JAVASCRIPT to clear search text when the field is clicked -->
+<!--<script type="text/javascript">-->
+<!--window.onload = function(){ -->
+<!--	//Get submit button-->
+<!--	var submitbutton = document.getElementById("tfq");-->
+<!--	//Add listener to submit button-->
+<!--	if(submitbutton.addEventListener){-->
+<!--		submitbutton.addEventListener("click", function() {-->
+<!--			if (submitbutton.value == ''){//Customize this text string to whatever you want-->
+<!--				submitbutton.value = '';-->
+<!--			}-->
+<!--		});-->
+<!--	}-->
+<!--}-->
+<!--</script>-->
+<!---->
+<!--	<!-- HTML for SEARCH BAR -->
+<!--	<div id="tfheader">-->
+<!--		<form id="tfnewsearch" method="get" action="http://www.google.com">-->
+<!--		        <input type="text" id="tfq" class="tftextinput2" name="q" size="21" maxlength="120" value="Search our website"><input type="submit" value=">" class="tfbutton2">-->
+<!--		</form>-->
+<!--		<div class="tfclear"></div>-->
+<!--	</div>-->
+<!--                  -->
                         <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3" >
-                  
+
+                
+            
+
                 </div>
+                        
        
                 <!--<div class = "col-xs-6 col-sm-6 col-md-6 col-lg-4" id = "green-dashboard">-->
                    
@@ -65,17 +94,21 @@
           </div>
 <!-- This is where the gradient div starts-->
             <div>
-                       
-        <div class = "row">
-            <div class = "general-border col-xs-2 col-sm-2 col-md-2 col-lg-2"> <p> <span style = "color: #fe7f13">ANNOUNCEMENTS</span></p></div>
-            <div class = "col-xs-8 col-sm-8 col-md-8 col-lg-8"> <p> Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivarmus sagittis lacus </p></div>
-        </div>
-        <div class = "general-border col-xs-2 col-sm-2 col-md-2 col-md-4 col-lg-2">
+            </div>
+           <div class = container id = "gradient-background">
+            <div class = container id = "large-white-box">
+        <div class = "first-row row">
+            <div class = "col-xs-2 col-sm-2 col-md-2 col-lg-2 border"> <p> <span style = "color: #fe7f13">ANNOUNCEMENTS</span></p></div>
+            <div class = "col-xs-9 col-sm-9 col-md-9 col-lg-9 border"> <p> Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivarmus sagittis lacus </p></div>
+       
+        <div class = "col-xs-1 col-md-1 border">
             <div class="nav-button-style nav-button"></div>
             <div class="nav-button2-style nav-button2"></div>
-            
-            
+            </div>
+            <!-- Closing div for 12 col-->
+  
         </div>
+        
 
         <div class = "row">
         
@@ -155,17 +188,32 @@
                         <p class = "socialmedia-text"> Google</p> 
                      <div class="google-green-background"></div>
                      </div>
+                         <div class = "row border" id = "contacts-width">
+                              <div class = "col-xs-6 col-md-6">
+                           <div class="avatar-whitebox-style1">
+                              <div class="green-avatar" class = "avatar"></div>
+                              
+                           </div>
+                           </div>
+                               <div class = "col-xs-6 col-md-6">
+                             <div class="avatar-whitebox-style2">
+                              <img src = "images/orange-avatar.png" class = "avatar">
+                              <div class = "blue-banner"> <p> 17 CUSTOMERS </p> <p> <sub> 0 INFLUENCERS </sub></p></div>
+                             </div>
+                               </div>
+            
+            </div><!--Whitebox row end div-->
+
                        <div class = "row">
                          <div class = "col-xs-2 col-md-2">
                         <div class="right pie-graph-style pie-graph"></div>
-               
+                         </div>
                 </div>
             </div>
 
-            
+         
             <div class = "col-xs-8 col-sm-8 col-md-8">
-<!--Recommendationssection-->
-<!--1-->
+ 
          
             <div class = "col-xs-4 col-sm-4 col-md-4"></div>
             
@@ -189,6 +237,8 @@
         </div>
         </div>
 
+</div> <!--THIS IS THE DIV THAT CLOSES THE WHITE BOX CONTAINER-->
+            
 <!--Footer-->
         <div class = "container-fluid">
             <div class = "row">
@@ -223,10 +273,9 @@
 <!---->
 <!--	-->
 
-<div class="sprites"></div>
-<div class="nav-background"></div>
-<div class="gradient"></div>
-<div class="green-background"></div>
+
+
+
 
 
 <div class="sweepstakes"></div>
@@ -234,7 +283,7 @@
 <div class="friends-advert"></div>
 <div class="version-advert"></div>
 <div class="watch-what-advert"></div>
-<div class="avatar-whitebox"></div>
+<!--<div class="avatar-whitebox"></div>-->
 <div class="avatar-chart1"></div>
 <div class="footer-final"></div>
 <div class="log-on"></div>
@@ -247,11 +296,11 @@
 <!--<div class="page-creator-png"></div>-->
 <!--<div class="promotions-green-png"></div>-->
 
-<div class="green-avatar"></div>
 
 
 
-<div class="marker"></div>
+
+
 
 
 
