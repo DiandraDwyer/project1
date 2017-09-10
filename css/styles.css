@@ -329,24 +329,35 @@ a:hover {
 }
 
 
-input[type="checkbox"] {
-    display:none;
-}
-input[type="checkbox"] + label span {
+
+.unchecked-class {
+     input[type="checkbox"] + label span {
     width: 19px;
     height: 19px;
     background:url(../images/unchecked-checkbox.png) left top no-repeat;
     cursor:pointer;
-}
-input[type="checkbox"]:checked + label span {
-    background:url(../images/checked-checkbox-background.png) -19px top no-repeat;
-}
-
-select, input {
+    select, input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
+
+}
+}
+
+
+.checked-class {
+     input[type="checkbox"]:checked + label span {
+    background:url(../images/checked-checkbox-background.png) -19px top no-repeat;
+    select, input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+}
+}
+
 
 
 .socialmedia-text {
