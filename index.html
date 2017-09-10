@@ -24,8 +24,15 @@
                    
                 </div>
                 <div class = "top-nav col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <div class = "top-nav-font left"> <p> MINI of Raleigh</p></div>
-                    <a href="#"><div class = "question question-mark"></div> </a>
+                    <div class = "top-nav-font left">
+                              <p> MINI of Raleigh</p>
+                    </div>
+                    <a href="#">
+                        <span style = "border-right: solid; border-width: 2px; padding-right: 2px; border-color: #1c85d8;">
+                        <div class = "question question-mark">
+                        </span>
+                        </div>
+                    </a>
                    <a href="#"> <div class = "top-nav-gear gear"></div> </a>
                 </div>
             </div>
@@ -35,26 +42,20 @@
             <div class = "row">
                 <div class = "col-xs-12 col-md-12">
                   <ul class = "top-margin">
-                <li> <div class="sprite-green-dashboard"></div></li>
-                 <li>  <div class="sprite-green-customers"></div> </li>
-                 <li>  <div class="sprite-green-messages"></div> </li>
-                 <li> <div class="sprite-green-promotions"></div> </li>
-               <li>   <div class="sprite-green-create-page"></div></li> 
-               <li> <div class="sprite-green-analytics"></div></li>
+                <li> <a href = "#"><div class="sprite-green-dashboard"></div></a></li>
+                 <li>  <a href = "#"><div class="sprite-green-customers"></div></a></li>
+                 <li>  <a href = "#"><div class="sprite-green-messages"></div></a></li>
+                 <li> <a href = "#"><div class="sprite-green-promotions"></div></a></li>
+               <li>   <a href = "#"><div class="sprite-green-create-page"></div></a></li> 
+               <li><a href = "#"><div class="sprite-green-analytics"></div></a></li>
                   </ul>
                 </div> 
             </div>
-                <div class="marker marker-style"></div>
-            
-            <!--<li> <div class="sprite-blue-dashboard"></div></li>-->
-            <!--     <li>  <div class="sprite-blue-customers"></div> </li>-->
-            <!--     <li>  <div class="sprite-blue-messages"></div> </li>-->
-            <!--     <li> <div class="sprite-blue-promotions"></div> </li>-->
-            <!--   <li>   <div class="sprite-blue-create-page"></div></li> -->
-            <!--   <li> <div class="sprite-blue-analytics"></div></li>-->
-        
+                
+         <div class="marker marker-style"></div>
             </div>
-        </div>
+       
+        
 <!--MAIN CONTENT-->
         <div class = "container">
 <!--Row 1--> 
@@ -74,22 +75,10 @@
 </div>
 <!-- Search bar code ends here-->
                   </div>
-           </div>
-                    
-                       
-
-
-                        
+           </div>          
 
                 </div>
                         
-       
-                <!--<div class = "col-xs-6 col-sm-6 col-md-6 col-lg-4" id = "green-dashboard">-->
-                   
-                <!--</div>-->
-                <!--<div class = "col-xs-4 col-sm-4 col-md-4 col-lg-8">-->
-                <!--     -->
-                <!--</div>-->
           </div>
 
            
@@ -100,8 +89,8 @@
             <div class = "col-xs-9 col-sm-9 col-md-9 col-lg-9 border"> <p> Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivarmus sagittis lacus </p></div>
        
         <div class = "col-xs-1 col-md-1 border">
-            <div class="nav-button-style nav-button"></div>
-            <div class="nav-button2-style nav-button2"></div>
+           <a href = "#"> <div class="nav-button-style nav-button"></div></a>
+           <a href = "#"> <div class="nav-button2-style nav-button2"></div></a>
             </div>
             <!-- Closing div for 12 col-->
   
@@ -120,17 +109,26 @@
                  </div>
                      
 <!--TASKS Row 1-->
-                <div class="tasks-row-1 row" id = "border-no-top"> 
+<!--Tasks Row: Code advice from Alma -->
+                <div>
+                <a  href = "#" class="tasks-row-1 row" id = "border-no-top"> 
  
-               <a href = "#"> <span><img src="images/green-one.png"> </a></span> 
+               <!--<a href = "#"> <span><img src="images/green-one.png"> </a></span> -->
+               <span class="plain-circle">1</span>
                   
                         
-                  <a href = "#"> <span> <p class = "tasks-text"> <span style = "color: #2498f4"> Welcome Contacts </span> </p> </a></li> 
+                  <!--<a href = "#"> <span> <p class = "tasks-text"> <span style = "color: #2498f4"> Welcome Contacts </span> </p> </a></li> -->
+                  
+                  <span class = "tasks-type"> Welcome Contacts </span>
               
                         
-                       <a href = "#"> <span> <img src="images/blue-32.png"> </a> </span> 
-              
-                  </div>
+                       <!--<a href = "#"> <span> <img src="images/blue-32.png"> </a> </span> </a>-->
+                  <div class = "plain-blue-guy1">
+                  <span class = "sprite sprite-plain-blue-guy"></span>
+                  <div class = "task-blue-number"> 32</div>
+              </a>
+                </div>
+                </div>
                    
 <!--TASKS Row 2-->
               <div class="tasks-row-1 border row">  
@@ -138,7 +136,7 @@
                 <a href = "#"> <img src="images/task-two.png"> </a>
                   
                         
-                  <a href = "#">  <p class = "tasks-text"> <span style = "color: #2498f4"> Provide Responses </span> </p> </a> 
+                  <a href = "#">  <p class = "tasks-type"> Provide Responses </p> </a> 
               
                         
                   <a href = "#">  <img src="images/task-blue-36.png"> </a>
@@ -153,7 +151,7 @@
                 <a href = "#"> <img src="images/task-three.png"> </a> 
                   
                         
-                  <li><a href = "#">  <p class = "tasks-text"> <span style = "color: #2498f4"> Review Activity </span> </p> </a>
+                  <li><a href = "#">  <p class = "tasks-type"> Review Activity </p> </a>
               
                         
                   <a href = "#">  <img src="images/task-blue-36.png"> </a> 
@@ -167,7 +165,7 @@
                 <a href = "#"> <img src="images/task-four.png"> </a> 
                   
                         
-                  <a href = "#">  <p class = "tasks-text"> <span style = "color: #2498f4"> Reach Out</span> </p> </a>
+                  <a href = "#">  <p class = "tasks-type"> Reach Out</p> </a>
               
                         
                   <a href = "#">  <img src="images/task-blue-three.png"> </a>
@@ -231,14 +229,21 @@
                      </div>
                                      </div>
                      <div class = "social-media-row row">
-                        <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
-                    <div class = "facebook socialmedia-text" class = "unchecked-style" > <p>Facebook</p></div>
+                       <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
+                  <!-- <input type="checkbox" id="unchecked-checkbox" checked="" type="checkbox" class = "unchecked-style">-->
+                   
+           <!--        <div class= "facebook socialmedia-text"> <p>Facebook</p></div>
                       <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
                     <div class = "twitter socialmedia-text" class = "unchecked-style"> <p>Twitter</p></div>
                       <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
                        <div class = "foursquare socialmedia-text" class = "unchecked-style"><p>Foursquare</p></div>
                          <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
-                        <div class = "google socialmedia-text" class = "unchecked-style"> <p>Google</p></div> 
+                        <div class = "google socialmedia-text" class = "unchecked-style"> <p>Google+</p></div> 
+                  -->
+                 <input type="checkbox" id="facebook" name="cc" />
+                   <label for="facebook"><span></span></label>
+                   <div class= "facebook socialmedia-text"> <p>Facebook</p></div>
+                        
                   
                      </div>
 
@@ -280,23 +285,38 @@
                    </div>
                     </li>
                    </ul>
+                
             </div> <!--  CLOSING DIV FOR RECOMMENDATIONS-->
 
        <div class = "col-xs-8 col-md-8">
                          <div class = "row border" id = "contacts-width">
-                           <div class="avatar-whitebox-style1">
+<!--                              CONTACTS1-->
+                           <img src = "images/ribbon1.png" class ="ribbon-style-1"> <div class="avatar-whitebox-style1"> 
                               <img src ="images/green-avatar-image.png" class = "green-avatar-style"> 
-                                  <div class = "blue-banner2"> <p> 75 CONTACTS <sub> 4 INFLUENCERS </sub> </p> </div>
+                                  <div class = "blue-banner2">
+                                    <p> <span style = "margin-bottom: 0px"> 75 CONTACTS</span>
+                                    </p>
+                                    <p><span style = "font-size: 15px; margin-bottom: 20px"> 4 INFLUENCERS </span></p>
+                                  </div>
                                   <img src = "images/avatar-chart1.png" class = "green-chart-style">
-                           </div>    
+                           </div>
+                           <img src = "images/ribbon2.png" class = "ribbon-style-2">
+<!--                           CONTACTS2-->
+                              <img src = "images/ribbon1.png" class ="ribbon-style-3"> <div class="avatar-whitebox-style2">
+                              <img src = "images/orange-avatar.png" class = "orange-avatar">
+                              <div class = "blue-banner">
+                                    <p>
+                                          <span style = "margin-bottom: 0px"> 17 CUSTOMERS </span>
+                                    </p>
+                              <p> <span style = "font-size: 15px"> 0 INFLUENCERS </span></p>
+                              </div>
+                              <img src = "images/orange-chart.png" class = "orange-chart-style">
+                             </div>
+                               <img src = "images/ribbon2.png" class ="ribbon-style-4"> 
                            </div>
                          
                            
-                             <div class="avatar-whitebox-style2">
-                              <img src = "images/orange-avatar.png" class = "orange-avatar">
-                              <div class = "blue-banner"> <p> 17 CUSTOMERS </p> <p> <sub> 0 INFLUENCERS </sub></p></div>
-                              <img src = "images/orange-chart.png" class = "orange-chart-style">
-                             </div>
+                           
                                </div>
                          <div class = "row border">
                            <div class = "blue-did-you-know">
@@ -312,97 +332,92 @@
      <div class = "container">
         <div class = "row">
             <div class = "col-xs-12 col-sm-12 col-md-12 blue-ad-background">
-            <div class = "friends">
-                  
+         
                   <ul>
-            <li><img src = "images/watch-what-advert.png"></li>
-             <li><img src = "images/friends-advert.png"></li>
-             <li> <img src = "images/version-advert.png"></li>
-             <div class = "ad-whitebox"></div>
+             <li class = "ad-list1  ad-inline"> <div class = "ad-whitebox"><img src = "images/watch-what-advert.png" class = "watch-image"></div></li>
+              <li class = "ad-list2  ad-inline"><div class = "ad-whitebox"> <img src = "images/friends-advert.png" class = "friends-image"></li></div></li>
+             <li class = "ad-list3  ad-inline"><div class = "ad-whitebox"><img src = "images/version-advert.png"></div></li>
              </ul>
              </div>
-            </div>
+         
         </div>
         </div>
-     
-     
-<!--     FOOTER-->
-     <div class = "container-fluid">
-      <div class = "row">
-            <div class = "footer-one">
-            <div class = "sweepstakes">
-            <div class = "social-media">
-            <div class = "log-on">
-            <div class = "footer-final">
-            
-      </div>
-     </div>
-     
+
+
 </div> <!--THIS IS THE DIV THAT CLOSES THE WHITE BOX CONTAINER-->
-            
-<!--Footer-->
-        <div class = "container-fluid">
+        
+        <!--     FOOTER-->
+        
+        <div class = "container-fluid footer-background">
             <div class = "row">
-                <div class = "col-xs-4 col-sm-4 col-md-4">
-                    
-                </div>
-                <div class = "col-xs-8 col-sm-8 col-md-8">
-                    
-                </div>
+            <div class = "col-xs-12 col-md-12 ">
+                  <div class = "col-xs-3 col-md-3">
+                        <p class = "footer-font"> <span style = "border-right: solid; border-width: 2px; padding-right: 10px; border-color: gray;">Tutorials </span>
+                        <span style = "border-right: solid; border-width: 2px; padding-right: 10px; padding-left: 10px; border-color: gray"> Support</span>
+                        <span style = "border-right: solid; border-width: 2px; padding-right: 10px; padding-left: 10px; border-color: gray"> Blog </span>
+                        </p>
+                  </div>
+              
+                  <div class = "col-xs-5 col-md-5">
+                            
+                  <p class = "footer-font2"> <a href = "#"> <span style = "color: #2190e8; font-weight: bold;">Ariel Winter </span> </a> likes your <a href = "#"><span style = "color: #2190e8; font-weight: bold;"> Win A Cooper Sweepstakes</span> </a> Promotion </p>
+                  <img src = "images/footer-chevron.png">
+                  
+                  </div>
+                  <div class = "col-xs-1 col-md-1">
+                        <img src = "images/footer-image.png">
+                        <p> <span style = "color: #2190e8; font-weight: bold;"> Logout </span> </p>
+                  </div>
+                   <div class = "col-xs-1 col-md-1">
+ <div class="sprite sprite-icon-facebook"></div>
+<div class="sprite sprite-icon-social"></div>
+<div class="sprite sprite-icon-twitter"></div>
+<div class="sprite sprite-icon-youtube"></div>
+<div class="sprite sprite-icon-youtube-hover"></div>
+                   </div>
+                      <div class = "col-xs-2 col-md-2"></div>
+                  </div>
             </div>
-        </div>
+            </div>
+        
+        
+        
+        
+     <!--<div class = "container-fluid">-->
+     <!-- <div class = "row">-->
+     <!--       <div class = "col-xs-12 col-md-12">-->
+     <!--       <div class = "part-one"> -->
+     <!--       <img src = "images/sweepstakes.png"> -->
+     <!--        <img src = "images/log-on.png"> -->
+     <!--       <img src = "images/social-media.png"> -->
+     <!--       <img src = "images/footer-final.png"> -->
+     <!--       </div>  -->
+     <!-- </div>-->
+     <!--</div>-->
+          <!---->
+          <!--<div class = "footer-one part-one"> </div>-->
+          <!--  <div class = "sweepstakes part-two"> </div>-->
+          <!--  <div class = "social-media part-three"> </div>-->
+          <!--  <div class = "log-on part-four"> </div>-->
+          <!--  <div class = "footer-final part-five"> </div>-->
+        
+        
+            
+<!--<!--Footer-->
+<!--        <div class = "container-fluid">-->
+<!--            <div class = "row">-->
+<!--                <div class = "col-xs-4 col-sm-4 col-md-4">-->
+<!--                    -->
+<!--                </div>-->
+<!--                <div class = "col-xs-8 col-sm-8 col-md-8">-->
+<!--                    -->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 <!--This is where the gradient div ends-->
     </div>
     
 
-<!---->
-<!---->
-<!--<div class="sweepstakes"></div>-->
-<!--<div class="footer-one"></div>-->
-<!--<div class="friends-advert"></div>-->
-<!---->
-<!--<div class="watch-what-advert"></div>-->
-<!--<!--<div class="avatar-whitebox"></div>-->
-<!--<div class="avatar-chart1"></div>-->
-<!--<div class="footer-final"></div>-->
-<!--<div class="log-on"></div>-->
-<!--<div class="social-media"></div>-->
-<!--<div class="diagonal-bg"></div>-->
-<!--<!--<div class="analytics-green-png"></div>-->
-<!--<!--<div class="customers-green-png"></div>-->
-<!--<!--<!--<div class="dashboard-green-png"></div>-->
-<!--<!--<div class="messages-green-png"></div>-->
-<!--<!--<div class="page-creator-png"></div>-->
-<!--<!--<div class="promotions-green-png"></div>-->
-<!---->
-<!---->
-<!---->
-
-
-
-<!---->
-<!---->
-<!---->
-<!---->
-<!--<div class="drop-down-arrow"></div>-->
-<!--<div class="question-mark"></div>-->
-<!---->
-<!---->
-<!--<div class="path"></div>-->
-<!--<div class="did-you-know-left-chevron"></div>-->
-<!--<div class="did-you-know-right-chevron"></div>-->
-<!---->
-<!--<div class="recommendations-check"></div>-->
-<!--<div class="tasks-gear"></div>-->
-<!--<div class="recommend-article"></div>-->
-<!--<div class="recommendations-article-shadow"></div>-->
-<!--<div class="checked-checkbox-background"></div>-->
-<!--<div class="unchecked-checkbox"></div>-->
-<!--<div class="recommendations-check-shadow"></div>-->
-<!--<div class="ribbon1"></div>-->
-<!--<div class="ribbon2"></div>-->
-<!--<div class="recommendations-lightbulb"></div>-->
-<!--<div class="up-arrow-blue"></div>-->
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,3 +1,5 @@
+/*HOVER CODE MODIFIED FROM: https://stackoverflow.com/questions/4717117/css-image-link-change-on-hover*/
+
 .sprite {
     background-image: url('../images/icons-sprite.png');
     background-repeat: no-repeat;
@@ -67,6 +69,13 @@
     background-position: -5px -199px;
 }
 
+.sprite-green-analytics:hover {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -5px -5px;
+}
+
 .sprite-green-create-page {
     background-image: url('../images/icons-sprite.png');
     width: 81px;
@@ -74,6 +83,13 @@
     background-position: -96px -199px;
 }
 
+.sprite-green-create-page:hover {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -96px -5px;
+}
+    
 .sprite-green-customers {
     background-image: url('../images/icons-sprite.png');
     width: 81px;
@@ -81,12 +97,28 @@
     background-position: -187px -199px;
 }
 
+.sprite-green-customers:hover {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -187px -5px;
+
+}
+
 .sprite-green-dashboard {
     background-image: url('../images/icons-sprite.png');
-    background-size: 60px 20px;
     width: 81px;
     height: 87px;
     background-position: -318px -5px;
+}
+
+
+.sprite-green-dashboard:hover {
+    background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -5px -102px;
+
 }
 
 .sprite-green-messages {
@@ -96,11 +128,25 @@
     background-position: -278px -102px;
 }
 
+.sprite-green-messages:hover {
+  background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -96px -102px;
+}
+
 .sprite-green-promotions {
     background-image: url('../images/icons-sprite.png');
     width: 81px;
     height: 87px;
     background-position: -278px -199px;
+}
+
+.sprite-green-promotions:hover {
+ background-image: url('../images/icons-sprite.png');
+    width: 81px;
+    height: 87px;
+    background-position: -187px -102px;
 }
 
 .sprite-linkedin {
@@ -146,6 +192,17 @@
     background-position: -5px -5px;
 }
 
+.sprite-github {
+    width: 30px;
+    height: 30px;
+    background-position: -75px -5px;
+}
+
+.sprite-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -115px -5px;
+}
 
 .sprite-gray-2 {
     width: 24px;
@@ -189,6 +246,17 @@
     background-position: -179px -79px;
 }
 
+.sprite-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -145px -113px;
+}
+
+.sprite-plain-blue-guy {
+    width: 60px;
+    height: 30px;
+    background-position: -5px -153px;
+}
 
 .sprite-plain-circle {
     width: 24px;
@@ -196,34 +264,40 @@
     background-position: -185px -113px;
 }
 
+.sprite-plain-gray-guy {
+    width: 60px;
+    height: 30px;
+    background-position: -75px -147px;
+}
+
 .sprite-recommend-article {
     width: 26px;
     height: 37px;
-    background-position: -5px -147px;
+    background-position: -185px -147px;
 }
 
 .sprite-recommendations-check {
     width: 26px;
     height: 37px;
-    background-position: -41px -147px;
+    background-position: -5px -194px;
 }
 
 .sprite-recommendations-lightbulb {
     width: 26px;
     height: 37px;
-    background-position: -77px -147px;
+    background-position: -41px -194px;
 }
 
 .sprite-stackoverflow {
     width: 30px;
     height: 30px;
-    background-position: -185px -147px;
+    background-position: -77px -194px;
 }
 
 .sprite-task-blue-36 {
     width: 60px;
     height: 30px;
-    background-position: -113px -153px;
+    background-position: -117px -194px;
 }
 
 .sprite-task-blue-three {
@@ -241,36 +315,46 @@
 .sprite-task-gray-hover {
     width: 72px;
     height: 44px;
-    background-position: -225px -99px;
+    background-position: -221px -99px;
 }
 
 .sprite-task-one-hover {
     width: 36px;
     height: 30px;
-    background-position: -225px -153px;
+    background-position: -271px -59px;
 }
 
 .sprite-task-three {
     width: 36px;
     height: 30px;
-    background-position: -113px -193px;
+    background-position: -221px -153px;
 }
 
 .sprite-task-two {
     width: 36px;
     height: 30px;
-    background-position: -159px -193px;
+    background-position: -267px -153px;
 }
 
 .sprite-tumblr {
     width: 30px;
     height: 30px;
-    background-position: -271px -59px;
+    background-position: -145px -153px;
 }
 
 .sprite-twitter {
     width: 30px;
     height: 30px;
-    background-position: -271px -153px;
+    background-position: -221px -193px;
 }
+
+.unchecked-checkbox {
+    background-position: -1144px -1730px;
+width: 18px;
+height: 18px; }
+
+.unchecked-checkbox:hover {
+   background-position: -1181px -1723px;
+    width: 18px;
+    height: 18px;}
 
