@@ -240,10 +240,12 @@
                          <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
                         <div class = "google socialmedia-text" class = "unchecked-style"> <p>Google+</p></div> 
                   -->
-                 <input type="checkbox" id="facebook" name="cc" />
-                   <label for="facebook"><span></span></label>
-                   <div class= "facebook socialmedia-text"> <p>Facebook</p></div>
-                        
+                 <div> <input type="checkbox" id="fb" name="cc" />
+                  
+                   <div>
+                   <label for="fb" class= "facebook socialmedia-text"><span> Facebook</span></label>
+                   </div>      
+                   </div>
                   
                      </div>
 
@@ -253,6 +255,7 @@
                
 <!--RECOMMENDATIONS-->
   <div class = "border col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div class = "row">
                 <h3> Recommendations </h3>
                 <ul class = "recommendations-list">
                 <li> <div class = "dashed-border row">
@@ -262,9 +265,10 @@
                   </div>
                 </li>
                 
+                
 <!--2-->
                    <li> <div class = "dashed-border row">
-                     <a href = "#">  <img src = "images/recommend-article.png">
+                     <a href = "#">  <img src = "images/recommend-article.png" class = "recommend-icon" >
                      <p> <span class = "tinyfont"> Article </span>
              Increase traction with more interactions </p></a>
              </div>
@@ -272,20 +276,20 @@
             
 <!--3-->
                     <li> <div class = "dashed-border row">
-                      <a href = "#"> <img src = "images/recommendations-check.png">
+                      <a href = "#"> <img src = "images/recommendations-check.png" class = "recommend-icon">
                     <p> <span class = "tinyfont"> Checklist </span>
                       Creating a Promotion </p> </a>
                     </div> 
                     </li>
 <!--4-->
                    <li>  <div class = "dashed-border row">
-                    <a href = "#"> <img src = "images/recommendations-lightbulb.png">
+                    <a href = "#"> <img src = "images/recommendations-lightbulb.png" class = "recommend-icon">
                  <p> <span class = "tinyfont"> Tip </span>
                   Share More </p> </a>
                    </div>
                     </li>
                    </ul>
-                
+                </div>
             </div> <!--  CLOSING DIV FOR RECOMMENDATIONS-->
 
        <div class = "col-xs-8 col-md-8">
@@ -329,18 +333,38 @@
                          </div>
                              
 <!--ADVERTISEMENTS-->
-     <div class = "container">
+     <div class = "container blue-ad-background">
         <div class = "row">
-            <div class = "col-xs-12 col-sm-12 col-md-12 blue-ad-background">
-         
-                  <ul>
-             <li class = "ad-list1  ad-inline"> <div class = "ad-whitebox"><img src = "images/watch-what-advert.png" class = "watch-image"></div></li>
-              <li class = "ad-list2  ad-inline"><div class = "ad-whitebox"> <img src = "images/friends-advert.png" class = "friends-image"></li></div></li>
-             <li class = "ad-list3  ad-inline"><div class = "ad-whitebox"><img src = "images/version-advert.png"></div></li>
-             </ul>
+            <div class = "col-xs-4 col-md4">
+                  <a href = "#">
+                        
+                         <div class = "ad-list1  ad-inline ad-whitebox"><img src = "images/watch-what-advert.png" class = "watch-image"></div>
+                        
+                  </a>
+                  </div>
+            
+             <div class = "col-xs-4 col-md4">
+                   <a href = "#">
+                        
+                          
+                          <div class="extra-space-box">
+                               <img src = "images/friends-advert.png" class = "friends-image"></div>
+                               <div class = "ad-list2  ad-inline ad-whitebox2">
+                          </div>
+                  </a>
+                  
+                  </div>
+             
+              <div class = "col-xs-4 col-md4">
+                   <a href = "#">
+                       <div class = "ad-list3  ad-inline ad-whitebox3"><img src = "images/version-advert.png" class = "advert-3"></div> 
+                         
+                  </a>
+                  </div>
+                 
+      
              </div>
          
-        </div>
         </div>
 
 
@@ -349,9 +373,10 @@
         <!--     FOOTER-->
         
         <div class = "container-fluid footer-background">
-            <div class = "row">
             <div class = "col-xs-12 col-md-12 ">
+                       <div class = "row">
                   <div class = "col-xs-3 col-md-3">
+                           
                         <p class = "footer-font"> <span style = "border-right: solid; border-width: 2px; padding-right: 10px; border-color: gray;">Tutorials </span>
                         <span style = "border-right: solid; border-width: 2px; padding-right: 10px; padding-left: 10px; border-color: gray"> Support</span>
                         <span style = "border-right: solid; border-width: 2px; padding-right: 10px; padding-left: 10px; border-color: gray"> Blog </span>
@@ -361,12 +386,12 @@
                   <div class = "col-xs-5 col-md-5">
                             
                   <p class = "footer-font2"> <a href = "#"> <span style = "color: #2190e8; font-weight: bold;">Ariel Winter </span> </a> likes your <a href = "#"><span style = "color: #2190e8; font-weight: bold;"> Win A Cooper Sweepstakes</span> </a> Promotion </p>
-                  <img src = "images/footer-chevron.png">
+                  <img src = "images/footer-chevron.png" class = "footer-right">
                   
                   </div>
                   <div class = "col-xs-1 col-md-1">
                         <img src = "images/footer-image.png">
-                        <p> <span style = "color: #2190e8; font-weight: bold;"> Logout </span> </p>
+                       <a href = "#"> <p class = "footer-right"> <span style = "color: #2190e8; font-weight: bold;"> Logout </span> </p> </a>
                   </div>
                    <div class = "col-xs-1 col-md-1">
  <div class="sprite sprite-icon-facebook"></div>
