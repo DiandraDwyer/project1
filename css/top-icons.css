@@ -131,3 +131,146 @@
     height: 30px;
     background-position: -369px -222px;
 }
+
+/*REC + TASKS*/
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-blue-32 {
+    width: 60px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+
+.sprite-gray-2 {
+    width: 24px;
+    height: 24px;
+    background-position: -155px -5px;
+}
+
+.sprite-gray-3 {
+    width: 60px;
+    height: 30px;
+    background-position: -155px -39px;
+}
+
+.sprite-gray-32 {
+    width: 60px;
+    height: 30px;
+    background-position: -5px -79px;
+}
+
+.sprite-gray-36 {
+    width: 60px;
+    height: 30px;
+    background-position: -75px -79px;
+}
+
+.sprite-gray-4 {
+    width: 24px;
+    height: 24px;
+    background-position: -189px -5px;
+}
+
+.sprite-gray-circle-3 {
+    width: 24px;
+    height: 24px;
+    background-position: -145px -79px;
+}
+
+.sprite-green-one {
+    width: 24px;
+    height: 24px;
+    background-position: -179px -79px;
+}
+
+
+.sprite-plain-circle {
+    width: 24px;
+    height: 24px;
+    background-position: -185px -113px;
+}
+
+.sprite-recommend-article {
+    width: 26px;
+    height: 37px;
+    background-position: -5px -147px;
+}
+
+.sprite-recommendations-check {
+    width: 26px;
+    height: 37px;
+    background-position: -41px -147px;
+}
+
+.sprite-recommendations-lightbulb {
+    width: 26px;
+    height: 37px;
+    background-position: -77px -147px;
+}
+
+.sprite-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -185px -147px;
+}
+
+.sprite-task-blue-36 {
+    width: 60px;
+    height: 30px;
+    background-position: -113px -153px;
+}
+
+.sprite-task-blue-three {
+    width: 72px;
+    height: 44px;
+    background-position: -225px -5px;
+}
+
+.sprite-task-four {
+    width: 36px;
+    height: 30px;
+    background-position: -225px -59px;
+}
+
+.sprite-task-gray-hover {
+    width: 72px;
+    height: 44px;
+    background-position: -225px -99px;
+}
+
+.sprite-task-one-hover {
+    width: 36px;
+    height: 30px;
+    background-position: -225px -153px;
+}
+
+.sprite-task-three {
+    width: 36px;
+    height: 30px;
+    background-position: -113px -193px;
+}
+
+.sprite-task-two {
+    width: 36px;
+    height: 30px;
+    background-position: -159px -193px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -271px -59px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -271px -153px;
+}
+

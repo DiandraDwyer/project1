@@ -1,4 +1,12 @@
 /*Code for responsive image (".responsive-image" found at w3schools: https://www.w3schools.com/css/css_rwd_images.asp*/
+            
+/*          li a:hover {*/
+/*    background-color: #111;*/
+/*}*/
+body {
+     background-color: white;
+     
+}
 h2 {
      color: white;
      font-size: 40px;
@@ -9,7 +17,8 @@ h3 {
     color: #2498f4;
     font-family: sans-serif;
     font-size: 35px;
-    padding-top: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
 }
 p {
     font-family: sans-serif;
@@ -17,6 +26,19 @@ p {
 .top-nav {
     background-color: #2190e8;
     min-height: 20px;
+}
+
+ul {
+     margin: 0px;
+     width: 100%;
+     list-style-type: none;
+     padding: 0px;
+     text-align: center;
+      
+}
+li {
+     
+      display: inline-block;
 }
 
 .top-nav-font {
@@ -39,19 +61,32 @@ p {
     width: 100%;
 }
 
+
+
+
+/*MAIN NAVIGATION*/
 #green-dashboard {
     width: 100%;
     height: 90px;
     margin-top: 20px;
     background-color: #33cc66;
-    border-radius: 5px;
+    border-radius: 7px;
+    margin-bottom: 0px;
 
+}
+
+.marker {
+     margin-bottom: 0px;
+     margin-left: 725px;
 }
 
 .border {
      border-width: 1px;
      color: lightgray;
 
+}
+.top-margin {
+     margin-top: 80px;
 }
 /*#gradient {*/
 /*    height: 100px;*/
@@ -76,13 +111,27 @@ p {
      width: 23px;
      height: 22px;
      float: right;
+     padding-top: 25px;
+}
+.search-bar {
+     padding-top: 20px;
 }
 
 .gear {
-    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    vertical-align: middle;
 }
 .question-mark {
-    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    padding-right: 20px;
+    border-right: 1px #166db1 solid;
 }
 
 /*Alexis Help: ".background" learned that I have to put the attributes from my generator.css into my styles.css for the sprite to appear*/
@@ -131,6 +180,8 @@ p {
     background-position: -96px -5px;
 }
 
+
+
 .analytics {
     margin-left: 20%;
     width: 81px;
@@ -164,6 +215,7 @@ p {
     background-size:cover;
     width: 100%;
     border-radius: 10px;
+    margin-top: 7px;
     
 }
 
@@ -236,10 +288,67 @@ p {
     width: 420px;
     height: 187px; 
 }
-.socialmedia-text {
-    color: black;
-    font-size: 15px;
+
+/*ANALYTICS*/
+.pie {
+     background: url('../images/pie-graph.png');
+     background-repeat: no-repeat;
+     height: 240px;
+     margin-top: 40px;
+    
 }
+.channels-word {
+     margin-top: 0px;
+     text-align: center;
+     color: gray;
+}
+.referrals-word {
+     text-align: center;
+     color: gray;
+     margin-top: 105px;
+}
+/*Social media under photo*/
+
+.unchecked-style {
+     margin-right: 10px;
+     margin-left: 10px;
+}
+.socialmedia-text {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    width: 90px;
+    height: 20px;
+
+}
+.social-media-row {
+     margin-top: 20px;
+     margin-left: 50px;
+     padding: 20px;
+    
+
+}
+.facebook {
+     background-color: #114570;
+     border-radius:4px;
+     
+}
+
+.twitter {
+     background-color: #2298f4;
+       border-radius:4px;
+}
+
+.foursquare {
+     background-color: #3a599b;
+       border-radius:4px;
+     
+}
+.google {
+     background-color: #31cc66;
+       border-radius:4px;
+}
+
 .inline {
    display: inline;
 }
@@ -247,26 +356,28 @@ p {
     background-color: red;
 }
 .photo {
-    width: 600px;
-    height: 300px;
+    width: 95%;
+    height: 250px;
+    padding: 0px;
+    margin-left: 35px;
+    margin-top: 40px;
 }
 
-.pie-graph-style {
-    background: url('../images/sprites.png');
-    background-position: -1px -1699px;
-    width: 600px;
-    height: 338px;
+.pie-style {
+     margin: 0px;
+     padding: 0px;
+     margin-top: 40px;
 }
 
 .tinyfont {
     font-size: 15px;
     color: #777777;
-    margin: 6px;
+   margin-left: 10px;
 }
 
 .dropdown-form {
      padding: 5px;
-     width: 100%;
+     width: 60%;
      font-size: 18px;
 }
 
@@ -284,64 +395,114 @@ p {
 
 
 
-/*Css Below is for Search box*/
-#tfheader{
-		background-color:#c3dfef;
-	}
-	#tfnewsearch{
-		float:right;
-		padding:20px;
-	}
-	.tftextinput2{
-		margin: 0;
-		padding: 5px 15px;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size:14px;
-		color:#666;
-		border:1px solid #0076a3; border-right:0px;
-		border-top-left-radius: 5px 5px;
-		border-bottom-left-radius: 5px 5px;
-	}
-	.tfbutton2 {
-		margin: 0;
-		padding: 5px 7px;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size:14px;
-		font-weight:bold;
-		outline: none;
-		cursor: pointer;
-		text-align: center;
-		text-decoration: none;
-		color: #ffffff;
-		border: solid 1px #0076a3; border-right:0px;
-		background: #0095cd;
-		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
-		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
-		border-top-right-radius: 5px 5px;
-		border-bottom-right-radius: 5px 5px;
-	}
-	.tfbutton2:hover {
-		text-decoration: none;
-		background: #007ead;
-		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
-		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
-	}
-	/* Fixes submit button height problem in Firefox */
-	.tfbutton2::-moz-focus-inner {
-	  border: 0;
-	}
-	.tfclear{
-		clear:both;
-	}
-     
+/*Css Below is for Search box. Code modified. Original found at: https://codepen.io/huange/pen/rbqsD*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.search {
+  width: 100%;
+  position: relative;
+  min-height: 40px;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 1px solid #2db55b;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #2498f4;
+}
+
+/*#searchButton {*/
+/*    */
+/*}*/
+.searchButton {
+  position: absolute;  
+  right: -2px;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 20px;
+    background-image: url('../images/search.png');
+  background-position: -1086px -1672px; width: 23px; height: 22px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 90%;
+  position: absolute;
+  min-height: 35px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 /*     Container Row 1: Announcements, etc.*/
 
 #first-row {
      padding-top: 60px;
+
+
+
+
+/*TASKS CLASSES*/
+
+.tasks-row-1 {
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin: 0px;
+
+}
+
+.tasks-row-list {
+    display: block;
+    width: 100%;
+     list-style: none;
+     margin: 0px;
+     padding: 0px;
+}
+.tasks-gear-style {
+     margin-top: 40px;
+   
+}
+#border-no-top
+
+
+
+/*RECOMMENDATIONS*/
+.recommendations-list {
+     margin: 0px;
+     color: white;
+}
+.dashed-border {
+     border-bottom: dashed;
+     border-color: lightgray;
+     border-width: 2px;
+}
+
+
+/*CONTACTS+CUSTOMERS*/
+
+.orange-chart-style {
+     text-align: center;
+     width: 10px;
+     height: 150px;
+     margin-top: 20px;
+}
+
 }
      
      #large-white-box {
-          margin-top: 20px;
+          margin-top: 30px;
           background-color: white;
           border: solid;
           border-width: 1px;
@@ -353,27 +514,45 @@ p {
 .avatar-whitebox-style1 {
      background-color: white;
      padding: 2px;
-     min-height: 300px;
-    width: 350px;
-    box-shadow: 1px 3px 2px #888888;
+     min-height: 250px;
+    width: 300px;
+    box-shadow: 3px 5px 4px #888888;
     border-radius: 4px;
-    margin-left: 0px;
+    margin-left: 40px;
+    margin-right: 20px;
     margin-top: 80px;
+    margin-bottom: 50px;
 }
 .avatar-whitebox-style2 {
      background-color: white;
      padding: 2px;
-     margin-right: 0px;
+     margin-right: 20px;
+     margin-left: 20px;
      margin-top: 80px;
-    min-height: 300px;
-    width: 350px;
-    box-shadow: 1px 3px 2px #888888;
+    min-height: 250px;
+    width: 300px;
+    box-shadow: 3px 5px 4px #888888;
     border-radius: 4px;
     float: right;
+     margin-bottom: 50px;
 }
      
- .avatar {
+ .orange-avatar {
      align-content: center;
+     width: 30%;
+     height: 40%;
+     margin-left: 100px;
+ }
+  .green-avatar-style {
+     align-content: center;
+     width: 30%;
+     height: 40%;
+     margin-left: 100px;
+ }
+ 
+ .green-chart-style {
+     text-align: center;
+     
  }
 
 #customers-width {
@@ -381,12 +560,118 @@ p {
 }
 .blue-banner {
      background-color: #2190e8;
-     min-height: 100px;
+     height: 90px;
      width: 100%;
      color: white;
      text-align: center;
      padding-top: 8%;
      font-size: 30px;
+     margin-top: 0px;
      
 }
 
+.blue-banner2 {
+     background-color: #2190e8;
+     height: 90px;
+     width: 100%;
+     color: white;
+     text-align: center;
+     font-size: 30px;
+     margin-top: 0px;
+     
+}
+
+
+
+/*DID YOU KNOW?*/
+.blue-did-you-know {
+     background-color: #2190e8;
+     width: 100%;
+     min-height: 150px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     margin-right: 20px;
+     margin-left: 20px;
+     border-radius: 5px;
+}
+.did-font {
+     color: white;
+     font-size: 15px;
+     margin-left: 40px;
+     margin-top: 20px;
+}
+
+.did-font2 {
+     color: white;
+     font-size: 15px;
+     margin-left: 40px;
+}
+.did-chevrons {
+     position: absolute;
+     display: inline-block;
+     margin-top: 40px;
+}
+.did-chevrons2 {
+     margin-top: -138px;
+     position: absolute;
+     display: inline-block;
+     margin-left: 695px;
+}
+
+
+
+/*ADVERTISMENTS*/
+.blue-ad-background {
+     background-color: #2498f4;
+     height: 300px;
+}
+
+.friends {
+     width: 268px;
+     height: 171px;
+     
+}
+
+.ad-whitebox {
+     background-color: white;
+     width: 400px;
+     height: 800px;
+}
+
+
+/*FOOTER*/
+
+.part-one {
+     background-image: url('../images/footer-one.png');
+     padding: 0px;
+     height: 50px;
+}
+
+.part-two {
+         background-image: url('../images/sweepstakes.png');
+     padding: 0px;
+      height: 50px;
+     
+}
+
+.part-three {
+         background-image: url('../images/social-media.png');
+     padding: 0px;
+      height: 50px;
+     
+}
+
+
+.part-four {
+         background-image: url('../images/log-on.png');
+     padding: 0px;
+      height: 50px;
+     
+}
+
+.part-five {
+         background-image: url('../images/footer-final.png');
+     padding: 0px;
+      height: 50px;
+     
+}

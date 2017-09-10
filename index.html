@@ -15,6 +15,7 @@
   </head>
 
   <body>
+
 <!--HEADER+NAVIGATION-->
 <!--Row 1-->
         <div class = "container-fluid">
@@ -32,55 +33,53 @@
 <!--Row 2-->
         <div class = "container-fluid background">
             <div class = "row">
-                <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-12">
-                 <div class="dashboard-icon sprite-blue-dashboard"></div>
-                   <div class="customers sprite-blue-customers"></div> 
-                   <div class="messages sprite-blue-messages"></div> 
-                  <div class="promotions sprite-blue-promotions"></div> 
-                  <div class="page sprite-blue-create-page"></div> 
-                  <div class="analytics sprite-blue-analytics"></div> 
+                <div class = "col-xs-12 col-md-12">
+                  <ul class = "top-margin">
+                <li> <div class="sprite-green-dashboard"></div></li>
+                 <li>  <div class="sprite-green-customers"></div> </li>
+                 <li>  <div class="sprite-green-messages"></div> </li>
+                 <li> <div class="sprite-green-promotions"></div> </li>
+               <li>   <div class="sprite-green-create-page"></div></li> 
+               <li> <div class="sprite-green-analytics"></div></li>
+                  </ul>
                 </div> 
             </div>
-            <div class="marker"></div>
+                <div class="marker marker-style"></div>
+            
+            <!--<li> <div class="sprite-blue-dashboard"></div></li>-->
+            <!--     <li>  <div class="sprite-blue-customers"></div> </li>-->
+            <!--     <li>  <div class="sprite-blue-messages"></div> </li>-->
+            <!--     <li> <div class="sprite-blue-promotions"></div> </li>-->
+            <!--   <li>   <div class="sprite-blue-create-page"></div></li> -->
+            <!--   <li> <div class="sprite-blue-analytics"></div></li>-->
+        
             </div>
         </div>
 <!--MAIN CONTENT-->
         <div class = "container">
 <!--Row 1--> 
            <div class = "row" id = "green-dashboard">
-                <div class = "col-xs-9 col-sm-9 col-md-9 col-lg-9" >
-                    <h2> Dashboard </h2>
-                        <div class="search-icon search"></div>
+                <div class = "col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                  <h2> Dashboard </h2>
+                </div>
+                  <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <!--Search bar Code found at: https://codepen.io/huange/pen/rbqsD-->
+                        <div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+<!-- Search bar code ends here-->
+                  </div>
+           </div>
+                    
+                       
 
-<!--<!--Search box code from TEXTFIXER: https://www.textfixer.com/tutorials/html-search-box.php -->
-<!--<!-- JAVASCRIPT to clear search text when the field is clicked -->
-<!--<script type="text/javascript">-->
-<!--window.onload = function(){ -->
-<!--	//Get submit button-->
-<!--	var submitbutton = document.getElementById("tfq");-->
-<!--	//Add listener to submit button-->
-<!--	if(submitbutton.addEventListener){-->
-<!--		submitbutton.addEventListener("click", function() {-->
-<!--			if (submitbutton.value == ''){//Customize this text string to whatever you want-->
-<!--				submitbutton.value = '';-->
-<!--			}-->
-<!--		});-->
-<!--	}-->
-<!--}-->
-<!--</script>-->
-<!---->
-<!--	<!-- HTML for SEARCH BAR -->
-<!--	<div id="tfheader">-->
-<!--		<form id="tfnewsearch" method="get" action="http://www.google.com">-->
-<!--		        <input type="text" id="tfq" class="tftextinput2" name="q" size="21" maxlength="120" value="Search our website"><input type="submit" value=">" class="tfbutton2">-->
-<!--		</form>-->
-<!--		<div class="tfclear"></div>-->
-<!--	</div>-->
-<!--                  -->
-                        <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3" >
 
-                
-            
+                        
 
                 </div>
                         
@@ -92,9 +91,8 @@
                 <!--     -->
                 <!--</div>-->
           </div>
-<!-- This is where the gradient div starts-->
-            <div>
-            </div>
+
+           
            <div class = container id = "gradient-background">
             <div class = container id = "large-white-box">
         <div class = "first-row row">
@@ -109,60 +107,104 @@
   
         </div>
         
-
-        <div class = "row">
-        
             <!--Tasks:-->
-                <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-4">
-            <h3> Tasks </h3>
-            
-                  <div class="row">
-                <div class = "col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    <div class="task-one-style task-one-hover"></div>
-                    <div class="task-two-style task-two"></div>
-                    <div class="task-three-style task-three"></div>
-                    <div class="task-four-style task-four"></div>
-                   
-                  </div>
-                 <div class = "col-xs-7 col-sm-7 col-md-7 col-lg-7">
-                     <p class = "tasks-text"> Welcome Contacts </p>
-                     <p class = "tasks-text"> Provide Responses </p>
-                     <p class = "tasks-text"> Review Activity </p>
-                     <p class = "tasks-text">  Reach Out </p>
-                  </div>
-                  <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                   <div class="task-gray-hover-style task-gray-hover"></div>
-                   <div class="task-blue36-style task-blue-36"></div>
-                   <div class="task-blue3-style task-blue-three"></div>
-                  </div>
-               
-               </div> <!-- close nested row -->
-                <h3> Recommendations </h3>
-                           <div class = "row">
-                    <p class = "tinyfont"> Article </p>
-<p> 7 Steps to getting more Fans </p>
-<!--2-->
-                    <div class = "row"></div>
-                    <p class = "tinyfont"> Article </p>
-             <p> Increase traction with more interactions </p>
-<!--3-->
-                    <div class = "row"></div>
-                    <p class = "tinyfont"> Checklist </p>
-                    <p> Creating a Promotion </p>
-<!--4-->
-                    <div class = "row"></div>
-                    <p class = "tinyfont"> Tip </p>
-                  <p> Share More </p>
-            </div>
-                </div>
-              
-               <div class = "col-xs-6 col-md-6">
                   <div class = "row">
+                    <div class = "border col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class = "row">
+                        <div class = "col-xs-10 col-md-10">
+            <h3> Tasks </h3>
+            </div>
+                 <div class = "col-xs-2 col-md-2">
+                 <div class="tasks-gear-style tasks-gear"></div>
+                 </div>
+                 </div>
+                     
+<!--TASKS Row 1-->
+                <div class="tasks-row-1 row" id = "border-no-top"> 
+ 
+               <a href = "#"> <span><img src="images/green-one.png"> </a></span> 
+                  
+                        
+                  <a href = "#"> <span> <p class = "tasks-text"> <span style = "color: #2498f4"> Welcome Contacts </span> </p> </a></li> 
+              
+                        
+                       <a href = "#"> <span> <img src="images/blue-32.png"> </a> </span> 
+              
                   </div>
+                   
+<!--TASKS Row 2-->
+              <div class="tasks-row-1 border row">  
+                        
+                <a href = "#"> <img src="images/task-two.png"> </a>
+                  
+                        
+                  <a href = "#">  <p class = "tasks-text"> <span style = "color: #2498f4"> Provide Responses </span> </p> </a> 
+              
+                        
+                  <a href = "#">  <img src="images/task-blue-36.png"> </a>
+                 
+                  </div>
+                 
+
+<!--TASKS Row 3-->
+   <div class="tasks-row-1 border row">   
+                
+                        
+                <a href = "#"> <img src="images/task-three.png"> </a> 
+                  
+                        
+                  <li><a href = "#">  <p class = "tasks-text"> <span style = "color: #2498f4"> Review Activity </span> </p> </a>
+              
+                        
+                  <a href = "#">  <img src="images/task-blue-36.png"> </a> 
+                 
+                  </div>
+             
+
+<!--   Row 4-->
+        <div class="tasks-row-1 border row">    
+                        
+                <a href = "#"> <img src="images/task-four.png"> </a> 
+                  
+                        
+                  <a href = "#">  <p class = "tasks-text"> <span style = "color: #2498f4"> Reach Out</span> </p> </a>
+              
+                        
+                  <a href = "#">  <img src="images/task-blue-three.png"> </a>
+                  
+                  </div>
+                    </div>
+                 
+                 <!--This div closes the TASKS row-->
+
+<!--             TASKS  HOVER CONTENT         -->
+                <!--<div class = "col-xs-2 col-sm-2 col-md-2 col-lg-2">-->
+                <!--    <div class="task-one-style task-one-hover"></div>-->
+                <!--    <div class="task-two-style task-two"></div>-->
+                <!--    <div class="task-three-style task-three"></div>-->
+                <!--    <div class="task-four-style task-four"></div>-->
+                <!--   -->
+                <!--  </div>-->
+                <!-- <div class = "col-xs-7 col-sm-7 col-md-7 col-lg-7">-->
+                <!--     -->
+                <!--     <p class = "tasks-text"> Provide Responses </p>-->
+                <!--     <p class = "tasks-text"> Review Activity </p>-->
+                <!--     <p class = "tasks-text">  Reach Out </p>-->
+                <!--  </div>-->
+                <!--  <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3">-->
+                <!--   -->
+                <!--   <div class="task-blue36-style task-blue-36"></div>-->
+                <!--   <div class="task-blue3-style task-blue-three"></div>-->
+                <!--  </div>-->
+                  
+                  
+                  
+<!--ANALYTICS SECTION-->
+                   <div class = "col-xs-8 col-md-8">
                      <h3> Analytics </h3>
                        <div class = "row">
                          <div class = "col-xs-6 col-md-6">
-                        <p> ACTIVITY</p>
+                        <p> <span style = "color: #999999"> ACTIVITY </span></p>
                          </div>
                           <div class = "col-xs-6 col-md-6">
 <!-- This is where the date form is -->
@@ -178,65 +220,124 @@
                           </div>
                        </div>
                          <div class = "row">
+                              <div class = "row">
+                                    <div class = "col-xs-10 col-md-10">
                      <img class = "photo" src = "images/analytics-photo.png">
-                    <p class = "socialmedia-text"> Facebook</p>
-                    <div class="facebook-blue-background"></div>
-                    <p class = "socialmedia-text"> Twitter</p>
-                    <div class="twitter-blue-background"></div>
-                       <p class = "socialmedia-text">Foursquare</p>
-                       <div class="foursquare-blue-background"></div>
-                        <p class = "socialmedia-text"> Google</p> 
-                     <div class="google-green-background"></div>
                      </div>
+                                    <div class = "col-xs-2 col-md-2 pie pie-style">
+                                          <p class = "channels-word"> CHANNELS </p>
+                                           <p class = "referrals-word"> REFERRALS </p>
+                     <!--<img src = "images/pie-graph.png"> -->
+                     </div>
+                                     </div>
+                     <div class = "social-media-row row">
+                        <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
+                    <div class = "facebook socialmedia-text" class = "unchecked-style" > <p>Facebook</p></div>
+                      <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
+                    <div class = "twitter socialmedia-text" class = "unchecked-style"> <p>Twitter</p></div>
+                      <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
+                       <div class = "foursquare socialmedia-text" class = "unchecked-style"><p>Foursquare</p></div>
+                         <img src = "images/unchecked-checkbox.png" class = "unchecked-style">
+                        <div class = "google socialmedia-text" class = "unchecked-style"> <p>Google</p></div> 
+                  
+                     </div>
+
+                          </div>
+               </div> <!-- close nested row -->
+               
+               
+<!--RECOMMENDATIONS-->
+  <div class = "border col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h3> Recommendations </h3>
+                <ul class = "recommendations-list">
+                <li> <div class = "dashed-border row">
+                <a href = "#">  <span> <img src = "images/recommend-article.png"></span> </a>
+                  <a href = "#"> <p> <span class = "tinyfont"> Article </span> 
+                 7 Steps to getting more Fans </p> </a>
+                  </div>
+                </li>
+                
+<!--2-->
+                   <li> <div class = "dashed-border row">
+                     <a href = "#">  <img src = "images/recommend-article.png">
+                     <p> <span class = "tinyfont"> Article </span>
+             Increase traction with more interactions </p></a>
+             </div>
+                   </li>
+            
+<!--3-->
+                    <li> <div class = "dashed-border row">
+                      <a href = "#"> <img src = "images/recommendations-check.png">
+                    <p> <span class = "tinyfont"> Checklist </span>
+                      Creating a Promotion </p> </a>
+                    </div> 
+                    </li>
+<!--4-->
+                   <li>  <div class = "dashed-border row">
+                    <a href = "#"> <img src = "images/recommendations-lightbulb.png">
+                 <p> <span class = "tinyfont"> Tip </span>
+                  Share More </p> </a>
+                   </div>
+                    </li>
+                   </ul>
+            </div> <!--  CLOSING DIV FOR RECOMMENDATIONS-->
+
+       <div class = "col-xs-8 col-md-8">
                          <div class = "row border" id = "contacts-width">
-                              <div class = "col-xs-6 col-md-6">
                            <div class="avatar-whitebox-style1">
-                              <div class="green-avatar" class = "avatar"></div>
-                              
+                              <img src ="images/green-avatar-image.png" class = "green-avatar-style"> 
+                                  <div class = "blue-banner2"> <p> 75 CONTACTS <sub> 4 INFLUENCERS </sub> </p> </div>
+                                  <img src = "images/avatar-chart1.png" class = "green-chart-style">
+                           </div>    
                            </div>
-                           </div>
-                               <div class = "col-xs-6 col-md-6">
+                         
+                           
                              <div class="avatar-whitebox-style2">
-                              <img src = "images/orange-avatar.png" class = "avatar">
+                              <img src = "images/orange-avatar.png" class = "orange-avatar">
                               <div class = "blue-banner"> <p> 17 CUSTOMERS </p> <p> <sub> 0 INFLUENCERS </sub></p></div>
+                              <img src = "images/orange-chart.png" class = "orange-chart-style">
                              </div>
                                </div>
-            
-            </div><!--Whitebox row end div-->
-
-                       <div class = "row">
-                         <div class = "col-xs-2 col-md-2">
-                        <div class="right pie-graph-style pie-graph"></div>
+                         <div class = "row border">
+                           <div class = "blue-did-you-know">
+                          <a href = "#"> <img src = "images/did-you-know-left-chevron.png" class = "did-chevrons"></a>
+                  <p class = "did-font"> <span style = "font-size: 20px;"> DID YOU KNOW?</span> </p>
+                  <p class = "did-font2"> Maecenas sed diam eget risus varius blandit sit smet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. </p>
+                           </div>
+                           <a href = "#"><img src = "images/did-you-know-right-chevron.png" class = "did-chevrons2"></a>
+                               </div>
                          </div>
-                </div>
+                             
+<!--ADVERTISEMENTS-->
+     <div class = "container">
+        <div class = "row">
+            <div class = "col-xs-12 col-sm-12 col-md-12 blue-ad-background">
+            <div class = "friends">
+                  
+                  <ul>
+            <li><img src = "images/watch-what-advert.png"></li>
+             <li><img src = "images/friends-advert.png"></li>
+             <li> <img src = "images/version-advert.png"></li>
+             <div class = "ad-whitebox"></div>
+             </ul>
+             </div>
             </div>
-
-         
-            <div class = "col-xs-8 col-sm-8 col-md-8">
- 
-         
-            <div class = "col-xs-4 col-sm-4 col-md-4"></div>
-            
-          </div>  
-        <div class = "row">
-            <div class = "col-xs-6 col-sm-6 col-md-6"></div>
-            
-            <div class = "col-xs-6 col-sm-6 col-md-6"></div>
-            
-        </div>
-        
-        <div class = "row">
-            <div class = "col-xs-12 col-sm-12 col-md-12"></div>
-            
-        </div>
-        
-        <div class = "row">
-            <div class = "col-xs-4 col-sm-4 col-md-4"></div>
-            <div class = "col-xs-4 col-sm-4 col-md-4"></div>
-            <div class = "col-xs-4 col-sm-4 col-md-4"></div>
         </div>
         </div>
-
+     
+     
+<!--     FOOTER-->
+     <div class = "container-fluid">
+      <div class = "row">
+            <div class = "footer-one">
+            <div class = "sweepstakes">
+            <div class = "social-media">
+            <div class = "log-on">
+            <div class = "footer-final">
+            
+      </div>
+     </div>
+     
 </div> <!--THIS IS THE DIV THAT CLOSES THE WHITE BOX CONTAINER-->
             
 <!--Footer-->
@@ -253,77 +354,55 @@
 <!--This is where the gradient div ends-->
     </div>
     
-<!--Sprite Code from Steven-->
-    
 
 <!---->
-<!--<ul>-->
-<!--    <li class="dashboard"><a href="#"></a></li>-->
-<!--</ul>-->
 <!---->
-<!--<a href="#" class="analytics"></a>-->
+<!--<div class="sweepstakes"></div>-->
+<!--<div class="footer-one"></div>-->
+<!--<div class="friends-advert"></div>-->
 <!---->
-<!--<i class="sprite sprite-github"></i>-->
-<!--<i class="sprite sprite-gmail"></i>-->
-<!--<i class="sprite sprite-linkedin"></i>-->
-<!--<i class="sprite sprite-sprites"></i>-->
-<!--<i class="sprite sprite-stackoverflow"></i>-->
-<!--<i class="sprite sprite-tumblr"></i>-->
-<!--<i class="sprite sprite-twitter"></i>-->
+<!--<div class="watch-what-advert"></div>-->
+<!--<!--<div class="avatar-whitebox"></div>-->
+<!--<div class="avatar-chart1"></div>-->
+<!--<div class="footer-final"></div>-->
+<!--<div class="log-on"></div>-->
+<!--<div class="social-media"></div>-->
+<!--<div class="diagonal-bg"></div>-->
+<!--<!--<div class="analytics-green-png"></div>-->
+<!--<!--<div class="customers-green-png"></div>-->
+<!--<!--<!--<div class="dashboard-green-png"></div>-->
+<!--<!--<div class="messages-green-png"></div>-->
+<!--<!--<div class="page-creator-png"></div>-->
+<!--<!--<div class="promotions-green-png"></div>-->
 <!---->
-<!--	-->
+<!---->
+<!---->
 
 
 
-
-
-
-<div class="sweepstakes"></div>
-<div class="footer-one"></div>
-<div class="friends-advert"></div>
-<div class="version-advert"></div>
-<div class="watch-what-advert"></div>
-<!--<div class="avatar-whitebox"></div>-->
-<div class="avatar-chart1"></div>
-<div class="footer-final"></div>
-<div class="log-on"></div>
-<div class="social-media"></div>
-<div class="diagonal-bg"></div>
-<!--<div class="analytics-green-png"></div>-->
-<!--<div class="customers-green-png"></div>-->
-<!--<!--<div class="dashboard-green-png"></div>-->
-<!--<div class="messages-green-png"></div>-->
-<!--<div class="page-creator-png"></div>-->
-<!--<div class="promotions-green-png"></div>-->
-
-
-
-
-
-
-
-
-
-
-<div class="drop-down-arrow"></div>
-<div class="question-mark"></div>
-<div class="gear"></div>
-
-<div class="path"></div>
-<div class="did-you-know-left-chevron"></div>
-<div class="did-you-know-right-chevron"></div>
-
-<div class="recommendations-check"></div>
-<div class="tasks-gear"></div>
-<div class="recommend-article"></div>
-<div class="recommendations-article-shadow"></div>
-<div class="checked-checkbox-background"></div>
-<div class="unchecked-checkbox"></div>
-<div class="recommendations-check-shadow"></div>
-<div class="ribbon1"></div>
-<div class="ribbon2"></div>
-<div class="recommendations-lightbulb"></div>
-<div class="up-arrow-blue"></div>
+<!---->
+<!---->
+<!---->
+<!---->
+<!--<div class="drop-down-arrow"></div>-->
+<!--<div class="question-mark"></div>-->
+<!---->
+<!---->
+<!--<div class="path"></div>-->
+<!--<div class="did-you-know-left-chevron"></div>-->
+<!--<div class="did-you-know-right-chevron"></div>-->
+<!---->
+<!--<div class="recommendations-check"></div>-->
+<!--<div class="tasks-gear"></div>-->
+<!--<div class="recommend-article"></div>-->
+<!--<div class="recommendations-article-shadow"></div>-->
+<!--<div class="checked-checkbox-background"></div>-->
+<!--<div class="unchecked-checkbox"></div>-->
+<!--<div class="recommendations-check-shadow"></div>-->
+<!--<div class="ribbon1"></div>-->
+<!--<div class="ribbon2"></div>-->
+<!--<div class="recommendations-lightbulb"></div>-->
+<!--<div class="up-arrow-blue"></div>-->
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
