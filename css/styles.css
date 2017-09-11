@@ -76,11 +76,11 @@ li {
 
 .marker-style {
      margin-bottom: 0px;
-     margin-left: 770px;
-     position: absolute;
-     background-position: -1017px -1672px;
+     margin-left: 550px;
      width: 40px;
      height: 10px;
+     top: 181px;
+     position: absolute;
 }
 
 .border {
@@ -145,6 +145,7 @@ li {
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
+    position: relative;
 }
 
 .dashboard-icon {
@@ -487,9 +488,7 @@ a:hover {
   color: #2498f4;
 }
 
-/*#searchButton {*/
-/*    */
-/*}*/
+
 .searchButton {
   position: absolute;  
   right: -4px;
@@ -526,21 +525,38 @@ a:hover {
 .tasks-row-1 {
      padding:10px;
      
-     margin: 0px;
+     margin: 10px;
 
 }
-.plain-circle-style {
-     background-image: url('../images/plain-circle.png');
+
+.blue-style:hover {
+     background-image:url('../images/gray-32');
+height: auto;
+width: auto;
+}
+
+.blue-task-36 {
      height: 24px;
+     width: 30px;
 }
 
 .plain-blue-guy1 {
-     display: inline-block;
-float: right;
+
+width: 60px;
+    height: 30px;
+    background-position: -5px -153px;
+     background-image:url('../images/task-rec-icon.png');
+}
+
+.plain-blue-guy1:hover {
+      background-image:url('../images/task-rec-icon.png');
+    width: 60px;
+    height: 30px;
+    background-position: -75px -147px;
 }
 
 .tasks-row-list {
-    display: block;
+    display: inline-block;
     width: 100%;
      list-style: none;
      margin: 0px;
@@ -549,6 +565,15 @@ float: right;
 .tasks-gear-style {
      margin-top: 40px;
    
+}
+
+.plain-circles {
+     position: relative;
+    
+}
+
+.plain-circles:hover {
+     background-image:url('../images/plain-gray-circle.png');
 }
 #border-no-top
 

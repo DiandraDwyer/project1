@@ -253,6 +253,7 @@
 }
 
 .sprite-plain-blue-guy {
+    background-image:url('../images/task-rec-icon.png');
     width: 60px;
     height: 30px;
     background-position: -5px -153px;
@@ -265,12 +266,14 @@
 }
 
 .sprite-plain-gray-guy {
+    background-image:url('../images/task-rec-icon.png');
     width: 60px;
     height: 30px;
     background-position: -75px -147px;
 }
 
 .sprite-recommend-article {
+    
     width: 26px;
     height: 37px;
     background-position: -185px -147px;
