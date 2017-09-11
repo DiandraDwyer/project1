@@ -213,15 +213,28 @@ li {
     border-width: 2px;
     color: #eeeeee;
 }
+/*Gradient from W3 Schools: */
+
 #gradient-background {
-    background-image: url('../images/gradient.png');
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 7px;
-    
+     
+    background-color: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#efeeee, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#efeeee, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#efeeee, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#efeeee,#ffffff); /* Standard syntax */
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #e8e8e8;
 }
+/*#gradient-background {*/
+/*    background-image: url('../images/gradient.png');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size:cover;*/
+/*    width: 100%;*/
+/*    border-radius: 10px;*/
+/*    margin-top: 0px;*/
+/*    */
+/*}*/
 
 .nav-button-style {
     background: url('../images/sprites.png');
@@ -336,14 +349,17 @@ a:hover {
     height: 19px;
     background:url(../images/unchecked-checkbox.png) left top no-repeat;
     cursor:pointer;
-    select, input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
 
 }
 }
+
+    
+/*select, input {*/
+/*    -webkit-appearance: none;*/
+/*    -moz-appearance: none;*/
+/*    appearance: none;*/
+/*}*/
+
 
 
 .checked-class {
@@ -476,14 +492,14 @@ a:hover {
 /*}*/
 .searchButton {
   position: absolute;  
-  right: -2px;
+  right: -4px;
   width: 30px;
   height: 30px;
   vertical-align: middle;
-  cursor: pointer;
   font-size: 20px;
-    background-image: url('../images/search.png');
-  background-position: -1086px -1672px; width: 23px; height: 22px;
+  background-image: url('../images/search.png');
+  background-position: no-repeat;
+    
 }
 
 /*Resize the wrap to see the search bar change!*/
@@ -513,10 +529,9 @@ a:hover {
      margin: 0px;
 
 }
-.plain-circle {
-     background-color: #33cc66;
-     border-radius: 55px;
-     color: white;
+.plain-circle-style {
+     background-image: url('../images/plain-circle.png');
+     height: 24px;
 }
 
 .plain-blue-guy1 {
@@ -568,7 +583,7 @@ float: right;
 
 .orange-chart-style {
      text-align: center;
-     width: 300px;
+     width: 400px;
      height: 200px;
      margin-top: 20px;
 }
@@ -576,7 +591,7 @@ float: right;
 }
      
      #large-white-box {
-          margin-top: 30px;
+          margin-top: 20px;
           background-color: white;
           border: solid;
           border-width: 1px;
@@ -594,6 +609,7 @@ float: right;
     margin-right: 0px;
     margin-top: 80px;
     margin-bottom: 50px;
+    position: relative;
   
 }
 .avatar-whitebox-style2 {
@@ -606,20 +622,23 @@ float: right;
     border-radius: 4px;
     float: right;
      margin-bottom: 50px;
+     position: relative;
 }
      
  .orange-avatar {
      align-content: center;
-     width: 30%;
-     height: 25%;
-     margin-left: 100px;
+     width: 50%;
+     height: 50%;
+     top: -40px;
+     margin-left: 70px;
+     position: absolute;
  }
   .green-avatar-style {
      align-content: center;
-     width: 10%;
-     height: 15%;
-     margin-left: 100px;
-     top: 50px;
+     width: 50%;
+     height: 50%;
+     margin-left: 70px;
+     top: -40px;
      position: absolute;
      margin-bottom: 0px;
  }
@@ -659,10 +678,10 @@ float: right;
 .ribbon-style-4 {
      height: 60px;
      width: 30px;
-     margin-left: 0px;
+     margin-left: 645px;
      margin-top: 170px;
      margin-right: 60px;
-     position: relative;
+     position: absolute;
 }
 #customers-width {
      width: 100%;
@@ -673,9 +692,9 @@ float: right;
      width: 100%;
      color: white;
      text-align: center;
-     padding-top: 8%;
      font-size: 30px;
-     margin-top: 0px; 
+     margin-top: 70px;
+     position: relative;
      
      
      
@@ -688,7 +707,8 @@ float: right;
      color: white;
      text-align: center;
      font-size: 30px;
-     margin-top: 0px;
+     margin-top: 70px;
+     position: relative;
      
 }
 
@@ -853,8 +873,13 @@ position: absolute;
 
 .footer-right {
      float: right;
+     top: 180px;
 margin: 0px;
 padding: 0px;
+}
+
+.footer-styles {
+     margin-bottom: 0px;
 }
 /*footer social media sprites*/
 .sprite {
@@ -863,18 +888,18 @@ padding: 0px;
     display: block;
 }
 
-.sprite-icon-facebook {
-    background-image: url(social-hover.png);
+.facebook-icon-style {
+    background-image: url(../images/social-media-icons.png);
     width: 20px;
     height: 20px;
-    background-position: -5px -5px;
+    background-position: -31px -5px;
 }
 
 .sprite-icon-facebook:hover {
-       background-image: url(social-hover.png);
-   width: 18px;
+    background-image: url(../images/social-media-icons.png);
+    width: 16px;
     height: 16px;
-    background-position: -35px -5px;
+    background-position: -5px -5px;
 }
 
 
@@ -884,18 +909,18 @@ padding: 0px;
 /*    background-position: -35px -5px;*/
 /*}*/
 
-.sprite-icon-social {
-       background-image: url(social-hover.png);
-    width: 20px;
+.social-icon-style {
+    background-image: url(../images/social-media-icons.png);
+     width: 20px;
     height: 20px;
-    background-position: -35px -31px;
+    background-position: -5px -35px;
 }
 
 .sprite-icon-social:hover {
-       background-image: url(social-hover.png);
+        background-image: url(../images/social-media-icons.png);
     width: 16px;
     height: 16px;
-    background-position: -63px -5px;
+    background-position: -65px -35px;
 }
 
 /*.sprite-icon-social-hover {*/
@@ -904,18 +929,18 @@ padding: 0px;
 /*    background-position: -63px -5px;*/
 /*}*/
 
-.sprite-icon-twitter {
-       background-image: url(social-hover.png);
+.twitter-icon-style {
+     background-image: url(../images/social-media-icons.png);
     width: 20px;
     height: 20px;
-    background-position: -65px -31px;
+    background-position: -35px -35px;
 }
 
 .sprite-icon-twitter:hover {
-       background-image: url(social-hover.png);
-      width: 16px;
+   background-image: url(../images/social-media-icons.png);
+    width: 16px;
     height: 16px;
-    background-position: -5px -61px;
+    background-position: -65px -61px;
 }
 
 /*.sprite-icon-twitter-hover {*/
@@ -925,60 +950,20 @@ padding: 0px;
 /*}*/
 
 .sprite-icon-youtube {
-       background-image: url(social-hover.png);
+    background-image: url(../images/social-media-icons.png);
     width: 20px;
     height: 20px;
-    background-position: -31px -61px;
+    background-position: -61px -5px;
 }
 
 .sprite-icon-youtube:hover {
-       background-image: url(social-hover.png);
+    background-image: url(../images/social-media-icons.png);
     width: 16px;
     height: 16px;
-    background-position: -61px -61px;
+    background-position: -5px -87px;
 }
-/*.sprite-icon-youtube-hover {*/
-/*    width: 16px;*/
-/*    height: 16px;*/
-/*    background-position: -61px -61px;*/
-/*}*/
 
-/*.part-one {*/
-/*     background-image: url('../images/footer-one.png');*/
-/*     background-position: -602px -1939px; width: 386px; height: 51px;*/
-/*     padding: 0px;*/
-/*     */
-/*}*/
-/**/
-/*.part-two {*/
-/*         background-image: url('../images/sweepstakes.png');*/
-/*         background-position: -602px -1887px; width: 402px; height: 51px;*/
-/*     padding: 0px;*/
-/*     */
-/*     */
-/*}*/
-/**/
-/*.part-three {*/
-/*         background-image: url('../images/social-media.png');*/
-/*         background-position: -1023px -1803px; width: 106px; height: 51px; */
-/*     padding: 0px;*/
-/*      */
-/*     */
-/*}*/
-/**/
-/**/
-/*.part-four {*/
-/*         background-image: url('../images/log-on.png');*/
-/*         background-position: -1023px -1751px; width: 114px; height: 51px; */
-/*     padding: 0px;*/
-/*     */
-/*     */
-/*}*/
-/**/
-/*.part-five {*/
-/*         background-image: url('../images/footer-final.png');*/
-/*         background-position: -1023px -1699px; width: 120px; height: 51px;*/
-/*     padding: 0px;*/
-/*  */
-/*     */
-/*}*/
+
+.footer-socialmedia-styles {
+     display: inline-block;
+}

@@ -20,10 +20,10 @@
 <!--Row 1-->
         <div class = "container-fluid">
             <div class = "row">
-                <div class = "top-nav col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <div class = "top-nav col-xs-4 col-sm-8 col-md-8 col-lg-8">
                    
                 </div>
-                <div class = "top-nav col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class = "top-nav col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <div class = "top-nav-font left">
                               <p> MINI of Raleigh</p>
                     </div>
@@ -60,17 +60,17 @@
         <div class = "container">
 <!--Row 1--> 
            <div class = "row" id = "green-dashboard">
-                <div class = "col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <div class = "col-xs-12 col-sm-9 col-md-9 col-lg-9">
                   <h2> Dashboard </h2>
                 </div>
-                  <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                  <div class = "col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <!--Search bar Code found at: https://codepen.io/huange/pen/rbqsD-->
                         <div class="wrap">
    <div class="search">
       <input type="text" class="searchTerm" placeholder="">
-      <button type="submit" class="searchButton">
+      <a href = "#"><button type="submit" class="searchButton">
         <i class="fa fa-search"></i>
-     </button>
+     </button></a>
    </div>
 </div>
 <!-- Search bar code ends here-->
@@ -97,6 +97,7 @@
         </div>
         
             <!--Tasks:-->
+              
                   <div class = "row">
                     <div class = "border col-xs-4 col-sm-4 col-md-4 col-lg-4">
                         <div class = "row">
@@ -110,36 +111,33 @@
                      
 <!--TASKS Row 1-->
 <!--Tasks Row: Code advice from Alma -->
-                <div>
+                <div class = "row">
                 <a  href = "#" class="tasks-row-1 row" id = "border-no-top"> 
  
                <!--<a href = "#"> <span><img src="images/green-one.png"> </a></span> -->
-               <span class="plain-circle">1</span>
-                  
-                        
-                  <!--<a href = "#"> <span> <p class = "tasks-text"> <span style = "color: #2498f4"> Welcome Contacts </span> </p> </a></li> -->
+               <!--<a href = "#"> <span><img src="images/green-one.png"> </a></span> -->
+               <div class ="plain-circle-style"><p>1</p> </div>
+               
                   
                   <span class = "tasks-type"> Welcome Contacts </span>
               
                         
-                       <!--<a href = "#"> <span> <img src="images/blue-32.png"> </a> </span> </a>-->
-                  <div class = "plain-blue-guy1">
-                  <span class = "sprite sprite-plain-blue-guy"></span>
-                  <div class = "task-blue-number"> 32</div>
+               
+                  <div class = "sprite sprite-plain-blue-guy"> 32</div>
               </a>
                 </div>
-                </div>
+               
                    
 <!--TASKS Row 2-->
               <div class="tasks-row-1 border row">  
                         
-                <a href = "#"> <img src="images/task-two.png"> </a>
+                <a href = "#"> <img src="images/task-two.png" class = "img-responsive"> 2 </a>
                   
                         
                   <a href = "#">  <p class = "tasks-type"> Provide Responses </p> </a> 
               
                         
-                  <a href = "#">  <img src="images/task-blue-36.png"> </a>
+                  <a href = "#">  <img src="images/task-blue-36.png" class = "img-responsive"> </a>
                  
                   </div>
                  
@@ -148,7 +146,7 @@
    <div class="tasks-row-1 border row">   
                 
                         
-                <a href = "#"> <img src="images/task-three.png"> </a> 
+                <a href = "#"> <img src="images/task-three.png" class = "img-responsive"> </a> 
                   
                         
                   <li><a href = "#">  <p class = "tasks-type"> Review Activity </p> </a>
@@ -162,7 +160,7 @@
 <!--   Row 4-->
         <div class="tasks-row-1 border row">    
                         
-                <a href = "#"> <img src="images/task-four.png"> </a> 
+                <a href = "#"> <img src="images/task-four.png" class = "img-responsive"> </a> 
                   
                         
                   <a href = "#">  <p class = "tasks-type"> Reach Out</p> </a>
@@ -220,7 +218,7 @@
                          <div class = "row">
                               <div class = "row">
                                     <div class = "col-xs-10 col-md-10">
-                     <img class = "photo" src = "images/analytics-photo.png">
+                     <img class = "photo img-responsive" src = "images/analytics-photo.png">
                      </div>
                                     <div class = "col-xs-2 col-md-2 pie pie-style">
                                           <p class = "channels-word"> CHANNELS </p>
@@ -368,7 +366,7 @@
             <div class = "col-xs-4 col-md4">
                   <a href = "#">
                         
-                         <div class = "ad-list1  ad-inline ad-whitebox"><img src = "images/watch-what-advert.png" class = "watch-image"></div>
+                         <div class = "ad-list1  ad-inline ad-whitebox"><img src = "images/watch-what-advert.png" class = "img-responsive watch-image"></div>
                         
                   </a>
                   </div>
@@ -378,7 +376,7 @@
                         
                           
                           <div class="extra-space-box">
-                               <img src = "images/friends-advert.png" class = "friends-image"></div>
+                               <img src = "images/friends-advert.png" class = "img-responsive friends-image"></div>
                                <div class = "ad-list2  ad-inline ad-whitebox2">
                           </div>
                   </a>
@@ -387,7 +385,7 @@
              
               <div class = "col-xs-4 col-md4">
                    <a href = "#">
-                       <div class = "ad-list3  ad-inline ad-whitebox3"><img src = "images/version-advert.png" class = "advert-3"></div> 
+                       <div class = "ad-list3  ad-inline ad-whitebox3"><img src = "images/version-advert.png" class = "img-responsive advert-3"></div> 
                          
                   </a>
                   </div>
@@ -404,7 +402,7 @@
         
         <div class = "container-fluid footer-background">
             <div class = "col-xs-12 col-md-12 ">
-                       <div class = "row">
+                       <div class = "row footer-styles">
                   <div class = "col-xs-3 col-md-3">
                            
                         <p class = "footer-font"> <span style = "border-right: solid; border-width: 2px; padding-right: 10px; border-color: gray;">Tutorials </span>
@@ -413,24 +411,27 @@
                         </p>
                   </div>
               
-                  <div class = "col-xs-5 col-md-5">
+                  <div class = "col-xs-6 col-md-6">
                             
                   <p class = "footer-font2"> <a href = "#"> <span style = "color: #2190e8; font-weight: bold;">Ariel Winter </span> </a> likes your <a href = "#"><span style = "color: #2190e8; font-weight: bold;"> Win A Cooper Sweepstakes</span> </a> Promotion </p>
-                  <img src = "images/footer-chevron.png" class = "footer-right">
+                  <a href = "#"><img src = "images/footer-chevron.png" class = "footer-right"></a>
                   
                   </div>
                   <div class = "col-xs-1 col-md-1">
-                        <img src = "images/footer-image.png">
-                       <a href = "#"> <p class = "footer-right"> <span style = "color: #2190e8; font-weight: bold;"> Logout </span> </p> </a>
+                        <img src = "images/footer-image.png" class = "img-responsive">
+                       <a href = "#"> <p class = "footer-right"> <span style = "color: #2190e8; font-weight: bold; float: right;"> Logout </span> </p> </a>
                   </div>
-                   <div class = "col-xs-1 col-md-1">
- <div class="sprite sprite-icon-facebook"></div>
-<div class="sprite sprite-icon-social"></div>
-<div class="sprite sprite-icon-twitter"></div>
+                   <div class = "col-xs-2 col-md-2 footer-socialmedia-styles">
+ <div class="sprite sprite-facebook-color"></div>
+<div class="sprite sprite-icon-facebook facebook-icon-style"></div>
+<div class="sprite sprite-icon-twitter twitter-icon-style"></div>
+<div class="sprite sprite-icon-social social-icon-style"></div>
 <div class="sprite sprite-icon-youtube"></div>
-<div class="sprite sprite-icon-youtube-hover"></div>
+<div class="sprite sprite-social-color"></div>
+<div class="sprite sprite-twitter-color"></div>
+<div class="sprite sprite-youtube-color"></div>
                    </div>
-                      <div class = "col-xs-2 col-md-2"></div>
+                      <!--<div class = "col-xs-1 col-md-1"></div>-->
                   </div>
             </div>
             </div>
